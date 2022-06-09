@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19H1824" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Tasks" representedClassName=".Tasks" syncable="YES">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="taskType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TaskTypes" inverseName="taskType" inverseEntity="TaskTypes"/>
+    </entity>
+    <entity name="TaskTypes" representedClassName=".TaskTypes" syncable="YES">
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+        <relationship name="taskType" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tasks" inverseName="taskType" inverseEntity="Tasks"/>
+    </entity>
+    <elements>
+        <element name="Tasks" positionX="66.61328125" positionY="-80.890625" width="128" height="103"/>
+        <element name="TaskTypes" positionX="324.28125" positionY="52.703125" width="128" height="73"/>
+    </elements>
+</model>
