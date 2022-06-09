@@ -18,6 +18,8 @@
 		3F539DE728492749006D1A52 /* Tasks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F539DE328492749006D1A52 /* Tasks+CoreDataProperties.swift */; };
 		3F539DE828492749006D1A52 /* TaskTypes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F539DE428492749006D1A52 /* TaskTypes+CoreDataClass.swift */; };
 		3F539DE928492749006D1A52 /* TaskTypes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F539DE528492749006D1A52 /* TaskTypes+CoreDataProperties.swift */; };
+		3FDF78E628525A1F00A50800 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF78E528525A1F00A50800 /* AddTaskView.swift */; };
+		3FDF78E828525A4E00A50800 /* ShowTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF78E728525A4E00A50800 /* ShowTasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		3F539DE328492749006D1A52 /* Tasks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tasks+CoreDataProperties.swift"; path = "Projekt_MP_MB/DataCoreModels/Tasks+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F539DE428492749006D1A52 /* TaskTypes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TaskTypes+CoreDataClass.swift"; path = "Projekt_MP_MB/DataCoreModels/TaskTypes+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3F539DE528492749006D1A52 /* TaskTypes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TaskTypes+CoreDataProperties.swift"; path = "Projekt_MP_MB/DataCoreModels/TaskTypes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3FDF78E528525A1F00A50800 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		3FDF78E728525A4E00A50800 /* ShowTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				3F539DD4284925E4006D1A52 /* Info.plist */,
 				3F539DC7284925E2006D1A52 /* Projekt_MP_MB.xcdatamodeld */,
 				3F539DCE284925E4006D1A52 /* Preview Content */,
+				3FDF78E528525A1F00A50800 /* AddTaskView.swift */,
+				3FDF78E728525A4E00A50800 /* ShowTasksView.swift */,
 			);
 			path = Projekt_MP_MB;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 				3F539DE928492749006D1A52 /* TaskTypes+CoreDataProperties.swift in Sources */,
 				3F539DC4284925E2006D1A52 /* AppDelegate.swift in Sources */,
 				3F539DE828492749006D1A52 /* TaskTypes+CoreDataClass.swift in Sources */,
+				3FDF78E628525A1F00A50800 /* AddTaskView.swift in Sources */,
+				3FDF78E828525A4E00A50800 /* ShowTasksView.swift in Sources */,
 				3F539DC9284925E2006D1A52 /* Projekt_MP_MB.xcdatamodeld in Sources */,
 				3F539DE728492749006D1A52 /* Tasks+CoreDataProperties.swift in Sources */,
 				3F539DCB284925E2006D1A52 /* ContentView.swift in Sources */,
