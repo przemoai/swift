@@ -8,13 +8,46 @@
 
 import SwiftUI
 
+
+
 struct AddTaskView: View {
-    var body: some View {
-         VStack{
-                   Text("nowy widok")
+    
+    @State private var taskTitle = ""
+    @State private var taskDescription = ""
+    
+    func AddTaskToCoreData(){
+                   
                }
+    
+    var body: some View {
+        VStack{
+            Text("Dodaj zadanie")
+            
+            Text("Tytuł zadania")
+            TextField("",text: $taskTitle)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+            
+            
+            
+            Text("Opis zadania")
+            
+            
+            TextField("",text: $taskDescription)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+            
+            Button(action: AddTaskToCoreData, label: {Text("Dodaj Zadanie")})
+            
+            
+            
+           
+            
+        }
     }
 }
+
+
 
 struct AddTaskView_Previews: PreviewProvider {
     static var previews: some View {
